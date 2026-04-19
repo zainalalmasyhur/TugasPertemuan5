@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC004_PUT_Update_Book</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>14a7da41-0f0c-46d6-a8c2-14e0111c2a0a</testCaseGuid>
+</TestCaseEntity>
