@@ -25,13 +25,13 @@
     ```json
     [
       {
-        "id": 1,
-        "title": "Book 1",
-        "description": "string",
-        "pageCount": 0,
-        "excerpt": "string",
-        "publishDate": "datetime"
-      }
+        "id":1,
+        "title":"Book 1",
+        "description":"Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\n",
+        "pageCount":100,
+        "excerpt":"Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\n",
+        "publishDate":"2026-04-18T11:12:55.9703493+00:00"
+      },
     ]
     ```
 
@@ -49,15 +49,14 @@
   - **200 OK**
     ```json
     {
-      "id": 1,
-      "title": "Book 1",
-      "description": "string",
-      "pageCount": 0,
-      "excerpt": "string",
-      "publishDate": "datetime"
-    }
+      "id":1,
+      "title":"Book 1",
+      "description":"Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\n",
+      "pageCount":100,
+      "excerpt":"Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\n",
+      "publishDate":"2026-04-18T11:12:55.9703493+00:00"
+     }
     ```
-  - **404 Not Found**
 
 ---
 
@@ -72,12 +71,11 @@
   - Body:
     ```json
     {
-      "id": 999,
-      "title": "Automation Test",
-      "description": "Testing API",
-      "pageCount": 100,
-      "excerpt": "Sample",
-      "publishDate": "2026-04-19T00:00:00.000Z"
+      "title": "Buku Hisana",
+      "description": "Buku ayam",
+      "pageCount": 500,
+      "excerpt": "HAaaaaa",
+      "publishDate": "2026-04-19T09:40:21.160Z"
     }
     ```
 - **Response**:
@@ -94,12 +92,12 @@
   - Body:
     ```json
     {
-      "id": 999,
-      "title": "Updated Automation",
-      "description": "Updated",
-      "pageCount": 200,
-      "excerpt": "Updated",
-      "publishDate": "2026-04-19T00:00:00.000Z"
+      "id": 1,
+      "title": "Buku Hisana",
+      "description": "Buku ayam",
+      "pageCount": 500,
+      "excerpt": "HAaaaaa",
+      "publishDate": "2026-04-19T09:40:21.160Z"
     }
     ```
 - **Response**:
