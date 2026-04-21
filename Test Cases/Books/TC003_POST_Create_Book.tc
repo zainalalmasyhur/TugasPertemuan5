@@ -6,4 +6,69 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>cffc8f9b-1645-4932-948f-ca93183566f2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3bcdd6ad-4d79-4d76-8353-886dfcc89f82</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6c71d474-3a2b-4df5-984d-c1a3dcf32330</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8c5dce5d-9c79-4511-a910-9314caee2acf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fa52f7c1-e761-43b4-8547-f2ad9a997d95</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7f9cd0b7-71ec-4539-b105-fd0e1d8c1c08</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Buku Hisana'</defaultValue>
+      <description></description>
+      <id>3bcdd6ad-4d79-4d76-8353-886dfcc89f82</id>
+      <masked>false</masked>
+      <name>BookTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Buku ayam'</defaultValue>
+      <description></description>
+      <id>6c71d474-3a2b-4df5-984d-c1a3dcf32330</id>
+      <masked>false</masked>
+      <name>BookDesc</name>
+   </variable>
+   <variable>
+      <defaultValue>'500'</defaultValue>
+      <description></description>
+      <id>8c5dce5d-9c79-4511-a910-9314caee2acf</id>
+      <masked>false</masked>
+      <name>BookPage</name>
+   </variable>
+   <variable>
+      <defaultValue>'HAaaaaa'</defaultValue>
+      <description></description>
+      <id>fa52f7c1-e761-43b4-8547-f2ad9a997d95</id>
+      <masked>false</masked>
+      <name>BookExcerpt</name>
+   </variable>
+   <variable>
+      <defaultValue>'2026-04-19T09:40:21.16Z'</defaultValue>
+      <description></description>
+      <id>7f9cd0b7-71ec-4539-b105-fd0e1d8c1c08</id>
+      <masked>false</masked>
+      <name>BookPublishDate</name>
+   </variable>
 </TestCaseEntity>

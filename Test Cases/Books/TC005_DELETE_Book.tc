@@ -6,4 +6,17 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>bccc6e76-6daa-42e1-9cdf-e04737f30478</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bee8c610-a4dd-4c52-97bb-b1a808f673d8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>bee8c610-a4dd-4c52-97bb-b1a808f673d8</id>
+      <masked>false</masked>
+      <name>BookId</name>
+   </variable>
 </TestCaseEntity>

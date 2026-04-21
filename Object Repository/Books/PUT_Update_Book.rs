@@ -12,7 +12,7 @@
    <followRedirects>true</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;id\&quot;: 1,\n  \&quot;title\&quot;: \&quot;Buku Hisana\&quot;,\n  \&quot;description\&quot;: \&quot;Buku ayam\&quot;,\n  \&quot;pageCount\&quot;: 500,\n  \&quot;excerpt\&quot;: \&quot;HAaaaaa\&quot;,\n  \&quot;publishDate\&quot;: \&quot;2026-04-19T09:40:21.160Z\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;id\&quot;: 1,\n  \&quot;title\&quot;: \&quot;${Title}\&quot;,\n  \&quot;description\&quot;: \&quot;${Description}\&quot;,\n  \&quot;pageCount\&quot;: \&quot;${PageCount}\&quot;,\n  \&quot;excerpt\&quot;: \&quot;${Excerpt}\&quot;,\n  \&quot;publishDate\&quot;: \&quot;${PublishDate}\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -45,6 +45,41 @@
       <id>dc194c40-a113-46f1-a39a-32288b27012b</id>
       <masked>false</masked>
       <name>BookId</name>
+   </variables>
+   <variables>
+      <defaultValue>'Buku ayam'</defaultValue>
+      <description></description>
+      <id>0520f5cf-eb61-4736-8db3-56f94903d128</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variables>
+   <variables>
+      <defaultValue>'Buku Hisana'</defaultValue>
+      <description></description>
+      <id>b8a960ec-4e76-4f43-aadc-635187a6044f</id>
+      <masked>false</masked>
+      <name>Description</name>
+   </variables>
+   <variables>
+      <defaultValue>'200'</defaultValue>
+      <description></description>
+      <id>d576d4d0-7b3a-4db8-bc07-daa4105ed10d</id>
+      <masked>false</masked>
+      <name>PageCount</name>
+   </variables>
+   <variables>
+      <defaultValue>'Test123'</defaultValue>
+      <description></description>
+      <id>26f1a427-4088-4234-886c-1383137240b3</id>
+      <masked>false</masked>
+      <name>Excerpt</name>
+   </variables>
+   <variables>
+      <defaultValue>'2026-04-19T09:40:21.16Z'</defaultValue>
+      <description></description>
+      <id>c0d3cae4-223e-46b6-abed-74eb92d4b43a</id>
+      <masked>false</masked>
+      <name>PublishDate</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

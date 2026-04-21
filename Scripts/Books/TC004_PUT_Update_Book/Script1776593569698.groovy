@@ -17,25 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def response = WS.sendRequest(findTestObject('Books/PUT_Update_Book', [('BookId') : '1']))
+def response = WS.sendRequest(findTestObject('Books/PUT_Update_Book', [('BookId') : BookId]))
 
 //Verify Status Code
 WS.verifyResponseStatusCode(response, 200, FailureHandling.STOP_ON_FAILURE)
 
 //Verify Book Id
-WS.verifyElementPropertyValue(response, 'id', '1', FailureHandling.STOP_ON_FAILURE)
+WS.verifyElementPropertyValue(response, 'id', BookId, FailureHandling.STOP_ON_FAILURE)
 
 //Verify Book Title
-WS.verifyElementPropertyValue(response, 'title', 'Buku Hisana', FailureHandling.STOP_ON_FAILURE)
+WS.verifyElementPropertyValue(response, 'title', BookTitle, FailureHandling.STOP_ON_FAILURE)
 
 //Verify Book description
-WS.verifyElementPropertyValue(response, 'description', 'Buku ayam', FailureHandling.STOP_ON_FAILURE)
+WS.verifyElementPropertyValue(response, 'description', BookDesc, FailureHandling.STOP_ON_FAILURE)
 
 //Verify Book pageCount
-WS.verifyElementPropertyValue(response, 'pageCount', '500', FailureHandling.STOP_ON_FAILURE)
+WS.verifyElementPropertyValue(response, 'pageCount', BookPage, FailureHandling.STOP_ON_FAILURE)
 
 //Verify Book excerpt
-WS.verifyElementPropertyValue(response, 'excerpt', 'HAaaaaa', FailureHandling.STOP_ON_FAILURE)
+WS.verifyElementPropertyValue(response, 'excerpt', BookExcerpt, FailureHandling.STOP_ON_FAILURE)
 
 //Verify Book publishDate
-WS.verifyElementPropertyValue(response, 'publishDate', '2026-04-19T09:40:21.16Z', FailureHandling.STOP_ON_FAILURE)
+WS.verifyElementPropertyValue(response, 'publishDate', BookPublishDate, FailureHandling.STOP_ON_FAILURE)

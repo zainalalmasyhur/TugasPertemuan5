@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def response = WS.sendRequest(findTestObject('Books/DELETE_Book', [('BookId') : '1']))
+def response = WS.sendRequest(findTestObject('Books/DELETE_Book', [('BookId') : BookId]))
 
 //Verify Status Code
 WS.verifyResponseStatusCode(response, 200, FailureHandling.STOP_ON_FAILURE)

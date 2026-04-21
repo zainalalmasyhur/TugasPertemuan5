@@ -6,4 +6,30 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>bbf8707d-271c-4b65-afbc-a56cb40beb88</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>78098130-c3af-4305-bb84-a1312a8565da</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>761d963a-aa60-4957-9b66-d02db85051fb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>78098130-c3af-4305-bb84-a1312a8565da</id>
+      <masked>false</masked>
+      <name>BookId</name>
+   </variable>
+   <variable>
+      <defaultValue>'Book 1'</defaultValue>
+      <description></description>
+      <id>761d963a-aa60-4957-9b66-d02db85051fb</id>
+      <masked>false</masked>
+      <name>BookTitle</name>
+   </variable>
 </TestCaseEntity>

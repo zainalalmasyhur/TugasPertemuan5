@@ -12,7 +12,7 @@
    <followRedirects>true</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;\n{\n  \&quot;title\&quot;: \&quot;Buku Hisana\&quot;,\n  \&quot;description\&quot;: \&quot;Buku ayam\&quot;,\n  \&quot;pageCount\&quot;: 500,\n  \&quot;excerpt\&quot;: \&quot;HAaaaaa\&quot;,\n  \&quot;publishDate\&quot;: \&quot;2026-04-19T09:40:21.160Z\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;title\&quot;: \&quot;${Title}\&quot;,\n  \&quot;description\&quot;: \&quot;${Description}\&quot;,\n  \&quot;pageCount\&quot;: \&quot;${PageCount}\&quot;,\n  \&quot;excerpt\&quot;: \&quot;${Excerpt}\&quot;,\n  \&quot;publishDate\&quot;: \&quot;${PublishDate}\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -39,6 +39,41 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>'Buku Hisana'</defaultValue>
+      <description></description>
+      <id>c1764d56-125f-407d-a327-5cbaaf8147b1</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variables>
+   <variables>
+      <defaultValue>'Buku ayam'</defaultValue>
+      <description></description>
+      <id>5f6dbe87-1be0-42a8-80bf-85b70c878632</id>
+      <masked>false</masked>
+      <name>Description</name>
+   </variables>
+   <variables>
+      <defaultValue>'500'</defaultValue>
+      <description></description>
+      <id>61a8d91a-469f-4bea-bd15-d5d21e812cc9</id>
+      <masked>false</masked>
+      <name>PageCount</name>
+   </variables>
+   <variables>
+      <defaultValue>'HAaaaaa'</defaultValue>
+      <description></description>
+      <id>728d6e20-aed7-4676-be97-1f4be09b0056</id>
+      <masked>false</masked>
+      <name>Excerpt</name>
+   </variables>
+   <variables>
+      <defaultValue>'2026-04-19T09:40:21.16Z'</defaultValue>
+      <description></description>
+      <id>b04149dd-289d-4f6b-ac9d-385ead95c7c3</id>
+      <masked>false</masked>
+      <name>PublishDate</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

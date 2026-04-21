@@ -24,6 +24,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Books/TC002_GET_Book_By_ID</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>78098130-c3af-4305-bb84-a1312a8565da</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>761d963a-aa60-4957-9b66-d02db85051fb</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>9cb13379-ed9f-4247-bfa1-61b0774c6f1e</guid>
@@ -31,6 +43,36 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Books/TC003_POST_Create_Book</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3bcdd6ad-4d79-4d76-8353-886dfcc89f82</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6c71d474-3a2b-4df5-984d-c1a3dcf32330</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8c5dce5d-9c79-4511-a910-9314caee2acf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fa52f7c1-e761-43b4-8547-f2ad9a997d95</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7f9cd0b7-71ec-4539-b105-fd0e1d8c1c08</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>46211762-b276-4871-a0e6-980a294b988e</guid>
@@ -38,6 +80,42 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Books/TC004_PUT_Update_Book</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3bcdd6ad-4d79-4d76-8353-886dfcc89f82</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6c71d474-3a2b-4df5-984d-c1a3dcf32330</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8c5dce5d-9c79-4511-a910-9314caee2acf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fa52f7c1-e761-43b4-8547-f2ad9a997d95</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7f9cd0b7-71ec-4539-b105-fd0e1d8c1c08</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8b118d4c-7864-4c01-9dc9-de83508961cd</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>92e5a330-d93d-4d24-afaa-795e16e16bf7</guid>
@@ -45,5 +123,11 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Books/TC005_DELETE_Book</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bee8c610-a4dd-4c52-97bb-b1a808f673d8</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
